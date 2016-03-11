@@ -1,14 +1,19 @@
 body{
 	margin: 0;
+	height: 100%;
+	background-image: url("../../assets/img/rainbow.jpg");
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 } 
 html {
 	position: relative;
-	min-height: 100%;
+	height: 100%;
 }
-main{
-	width: 100%;
-	background: #FFF;
-	z-index: 500;
+.fancy-font{
+	font-family: fancy-font;
+	display: inline;
 }
 
 
